@@ -1,0 +1,57 @@
+why we need virtual destrutor?
+
+
+#include <iostream>
+using namespace std;
+
+class AAA
+{
+    int x;
+    public:
+    AAA()
+    {
+        x =5;
+    }
+    
+    
+};
+int main()
+{
+    AAA a;
+    AAA b=a;
+    AAA c(a);
+    
+    
+}
+
+
+
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+ int a=3;
+ int *p;
+ int **k;
+  p = &a;
+  k = &p;
+  k++;
+  
+  cout << **k;
+ 
+}
+
+
+
+
+
+INPUT = AABBBCCDDEEEGG
+OUTPUT = A2B3C3D3E3G2 
+create the program for this a	q
+
+
+10101101100
+sort
+
